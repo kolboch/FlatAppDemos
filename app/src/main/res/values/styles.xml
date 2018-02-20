@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProductLow.Button" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/lowProductState</item>
+        <item name="android:textColor">@color/buttonText</item>
+    </style>
+
+    <style name="ProductMedium.Button" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/mediumProductState</item>
+        <item name="android:textColor">@color/buttonText</item>
+    </style>
+
+    <style name="ProductHigh.Button" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/highProductState</item>
+        <item name="android:textColor">@color/buttonText</item>
+    </style>
+</resources>

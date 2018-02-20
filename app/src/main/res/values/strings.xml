@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlatAppDemos</string>
+    <string name="product_state">Product state</string>
+
+    <string name="product_ended">BRAK</string>
+    <string name="product_ending">MAŁO</string>
+    <string name="product_full">SYTO!</string>
+</resources>
