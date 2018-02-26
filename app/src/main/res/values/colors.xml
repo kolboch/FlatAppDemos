@@ -9,4 +9,8 @@
     <color name="mediumProductState">#ffc42d</color>
     <color name="highProductState">#44ae28</color>
     <color name="buttonText">#FFFFFF</color>
+
+    <color name="thumbSeekbarLow">#f21d1d</color>
+    <color name="thumbSeekbarMedium">#e9a906</color>
+    <color name="thumbSeekbarHigh">#238909</color>
 </resources>
