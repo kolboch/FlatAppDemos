@@ -5,4 +5,5 @@
     <string name="product_ended">BRAK</string>
     <string name="product_ending">MAŁO</string>
     <string name="product_full">SYTO!</string>
+    <string name="sample_product">Proszek do prania</string>
 </resources>

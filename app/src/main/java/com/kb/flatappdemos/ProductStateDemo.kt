@@ -1,8 +1,8 @@
 package com.kb.flatappdemos
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.SeekBar
 import kotlinx.android.synthetic.main.activity_product_state_demo.*
@@ -37,14 +37,17 @@ class ProductStateDemo : AppCompatActivity() {
 
     private fun setSeekbarState(state: Int) {
         when (state) {
-            STATE_LOW -> {
+            in STATE_LOW -> {
                 seekBar.progressDrawable = ContextCompat.getDrawable(applicationContext, R.drawable.seekbar_style_low)
+                seekBar.thumb = ContextCompat.getDrawable(applicationContext, R.drawable.seekbar_thumb_low)
             }
-            STATE_MEDIUM -> {
+            in STATE_MEDIUM -> {
                 seekBar.progressDrawable = ContextCompat.getDrawable(applicationContext, R.drawable.seekbar_style_medium)
+                seekBar.thumb = ContextCompat.getDrawable(applicationContext, R.drawable.seekbar_thumb_medium)
             }
-            STATE_HIGH -> {
+            in STATE_HIGH -> {
                 seekBar.progressDrawable = ContextCompat.getDrawable(applicationContext, R.drawable.seekbar_style_high)
+                seekBar.thumb = ContextCompat.getDrawable(applicationContext, R.drawable.seekbar_thumb_high)
             }
         }
     }

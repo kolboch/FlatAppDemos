@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ProductStateDemo">
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".ProductStateDemo">
 
     <android.support.v7.widget.CardView
         android:id="@+id/option1"
@@ -33,7 +33,7 @@
                 android:layout_marginTop="16dp"
                 android:src="@mipmap/cleaning"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/product_description1"
@@ -43,13 +43,14 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="8dp"
+                android:text="@string/sample_product"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="@+id/product_icon1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/product_icon1"
                 app:layout_constraintTop_toTopOf="@+id/product_icon1"
-                tools:text="Proszek do prania" />
+                tools:text="Proszek do prania"/>
 
             <Button
                 android:id="@+id/button_1_1"
@@ -63,7 +64,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/button_1_2"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"/>
 
             <Button
                 android:id="@+id/button_1_2"
@@ -76,7 +77,7 @@
                 android:theme="@style/ProductMedium.Button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/button_1_3"
-                app:layout_constraintStart_toEndOf="@+id/button_1_1" />
+                app:layout_constraintStart_toEndOf="@+id/button_1_1"/>
 
             <Button
                 android:id="@+id/button_1_3"
@@ -90,7 +91,7 @@
                 android:theme="@style/ProductHigh.Button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button_1_2" />
+                app:layout_constraintStart_toEndOf="@+id/button_1_2"/>
 
         </android.support.constraint.ConstraintLayout>
     </android.support.v7.widget.CardView>
@@ -120,7 +121,7 @@
                 android:layout_marginTop="16dp"
                 android:src="@mipmap/cleaning"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/product_description2"
@@ -130,13 +131,14 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="8dp"
+                android:text="@string/sample_product"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="@+id/product_icon2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/product_icon2"
                 app:layout_constraintTop_toTopOf="@+id/product_icon2"
-                tools:text="Proszek do prania" />
+                tools:text="Proszek do prania"/>
 
             <SeekBar
                 android:id="@+id/seekBar"
@@ -145,7 +147,7 @@
                 android:layout_marginBottom="32dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:max="2"
+                android:max="4"
                 android:progress="1"
                 android:progressDrawable="@drawable/seekbar_style_medium"
                 android:splitTrack="false"
@@ -153,7 +155,7 @@
                 android:thumb="@drawable/custom_thumb"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"/>
 
         </android.support.constraint.ConstraintLayout>
 
@@ -184,7 +186,7 @@
                 android:layout_marginTop="16dp"
                 android:src="@mipmap/cleaning"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/product_description3"
@@ -194,13 +196,14 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="8dp"
+                android:text="@string/sample_product"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="@+id/product_icon3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/product_icon3"
                 app:layout_constraintTop_toTopOf="@+id/product_icon3"
-                tools:text="Proszek do prania" />
+                tools:text="Proszek do prania"/>
 
         </android.support.constraint.ConstraintLayout>
     </android.support.v7.widget.CardView>
